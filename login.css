@@ -1,0 +1,107 @@
+/* style reset css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('https://wallpapers.com/images/file/beautiful-cool-manhattan-bridge-hxrmjbsvbtpxhgel.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* for navigation bar and logo */
+/* .navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+.logo{
+    margin: 4px 4px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin: 3px 6px;
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 950px;
+}
+.navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover,.navbar ul li a.active{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+
+} */
+
+/* for crendentials */
+.container{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.container h1{
+    font-size: 40px;
+    display: inline-block;
+    border-bottom: 5px solid purple;
+    margin-bottom: 43px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple ;
+    margin: 22px 0px;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.box input{
+    width: 75%;
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    color: purple;
+    background-color: white;
+}
