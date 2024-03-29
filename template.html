@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and more</title>
+</head>
+<style>
+    body{
+       color:white;
+       margin: 0px;
+       padding: 0px;
+    } 
+    header::before{
+        content:" ";
+        background: url('https://wallpapercave.com/wp/wp3376127.jpg') no-repeat center center/cover;
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    .left{
+        border: 2px solid grey;
+        display: inline-block;
+        position: absolute;
+        width:25%;
+        font-size: 48.5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        cursor: default;
+    }  
+    .left button{
+        padding: 3px 3px;
+        margin-left: 5px;
+        background-color: white;
+        border: none;
+    }
+    .mid{
+        border: 2px solid grey;
+        display: block;
+        width: 49.5%;
+        margin: auto;
+        text-align: center;
+    }
+    .right{
+        border: 2px solid grey;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 25%;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 12px;
+        font-size: 24px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        color: rgb(17, 13, 11);
+        text-decoration: underline;
+        padding: 34px 12px;
+        font-size: 24px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn li{
+        display: inline-block;
+    }
+    .btn li a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+    }
+    #color{
+        color: black;
+    }
+    .btn li img{
+        width:22px;
+        height: 20px;
+        filter: invert(100%);
+    }
+    .container{
+        font-size: 100px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0;
+        margin-left: 27%;
+        color: black;
+        display: inline;
+        cursor: default;
+    }
+    .container button{
+        padding: 5px 5px;
+        margin-left: 4px;
+        background-color: black;
+        border: none;
+    }
+    .text{
+        font-size: 20px;
+        margin-left: 60%;
+        color: black;
+        cursor: default;
+    }
+    .scroll{
+        margin-left: 20px;
+        margin-top: 150px; 
+        display: inline-block;
+    }
+    .scroll div{
+        margin: 10px 10px;
+        display: block;
+    }
+    .scroll div img{
+        border-radius: 8px;
+    }
+    .dot{
+        margin-left: 50%;
+        margin-top: 17%;
+    }
+    .dot a:hover button, .dot a.active button{
+        background-color: black;
+    }
+    .dot a button{
+        padding: 3px 3px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            Pulse<button></button>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Restaurant</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul class="btn">
+                <li><a href="#" id="color">Reservations </a></li>
+                <li><img src="https://tse4.mm.bing.net/th?id=OIP._wLiphlVUv3Hk7oE2ZjnogHaHa&pid=Api&P=0&h=180"></li>
+                <li><a href="#">652-345 3222 11</a></li>
+            </ul>
+        </div>
+    </header>
+    <div >
+        <div class="scroll">
+            <div><img src="https://tse3.mm.bing.net/th?id=OIP.TwESrblIhpd2D8XG5VDz5QHaHa&pid=Api&P=0&h=180" width="30px" heigth="30px"></div>
+            <div><img src="https://tse4.mm.bing.net/th?id=OIP.JtmXSh_uyZBaTg1eXd-NtgHaHa&pid=Api&P=0&h=180" width="30px" height="30px"></div>
+            <div><img src="https://tse2.mm.bing.net/th?id=OIP.k6lUqaSsHH2O9icUX0f_DQHaHa&pid=Api&P=0&h=180" width="30px" height="30px"></div>
+        </div>
+        <div class="container">Food and more<button></button></div>
+        <div class="text"><b>By Chef Francis Smith</b></div>
+    </div>
+    <div class="dot">
+        <a href="#" class="active"><button></button></a>
+        <a href="#"><button></button></a>
+        <a href="#"><button></button></a>
+    </div>
+
+</body>
+</html>
